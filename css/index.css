@@ -109,11 +109,12 @@ body {
 }
 ol,
 ul {
-  list-style: disc inside;
+  list-style: disc;
 }
 ol li,
 ul li {
   margin-bottom: 0.3rem;
+  margin-left: 1rem;
 }
 blockquote,
 q {
@@ -209,17 +210,6 @@ nav a:last-child {
 section {
   padding: 2rem;
 }
-.favis {
-  font-size: 3rem;
-  margin: 1rem;
-}
-.favis:hover {
-  transform: scale(1.1);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-}
-.favis:first-child {
-  margin-left: 2rem;
-}
 #intro {
   display: flex;
   justify-content: space-between;
@@ -238,6 +228,17 @@ section {
   #intro img {
     margin-bottom: 2em;
   }
+}
+.favis {
+  font-size: 3rem;
+  margin: 1rem;
+}
+.favis:hover {
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.favis:first-child {
+  margin-left: 0;
 }
 #skills ul {
   columns: 4;

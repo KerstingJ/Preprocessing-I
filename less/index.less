@@ -32,10 +32,11 @@ body {
 	line-height: 1;
 }
 ol, ul {
-  list-style: disc inside;
+  list-style: disc;
   
   li {
     margin-bottom: .3rem;
+    margin-left: 1rem;
   }
 }
 blockquote, q {
@@ -157,20 +158,6 @@ section {
   padding: 2rem;
 }
 
-.favis {
-  font-size: 3rem;
-  margin: 1rem;
-
-  &:hover {
-    transform: scale(1.1);
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-  }
-
-  &:first-child {
-    margin-left: 2rem;
-  }
-}
-
 #intro {
   .flex(space-between, center);
 
@@ -184,6 +171,20 @@ section {
     @media @tablet {
       margin-bottom: 2em;
     }
+  }
+}
+
+.favis {
+  font-size: 3rem;
+  margin: 1rem;
+
+  &:hover {
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  }
+
+  &:first-child {
+    margin-left: 0;
   }
 }
 
