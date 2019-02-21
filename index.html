@@ -2,18 +2,114 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>My Resume</title>
+<title>My Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
 </head>
-
 <body>
-  <h1>My Resume</h1>
+<div class="container index">
+  <header>
+    <div class="wrapper banner">
+      <h1>Joshua Kersting</h1>
+      <nav>
+        <a href="#contact">Contact</a>
+        <a href="#intro">Intro</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <Section id="intro">
+      <img src="images/pic03.jpg">
+      <div class="wrapper">
+        <h2>Intro</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </Section>
+    <section id="contact">
+      <div class="icons">
+        <a href="mailto:Kersting.Josh@Gmail.com"><i class="favis far fa-envelope"></i></a>
+        <a href="https://twitter.com/JoshOnThaTweet"><i class="favis fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/josh-kersting-86142911b/"><i class="favis fab fa-linkedin"></i></a>
+        <a href="https://github.com/KerstingJ"><i class="favis fab fa-github"></i></a>
+      </div>
+    </section>
+    <div class="flex-wrapper">
+      <Section id='skills'>
+        <h2>Skills</h1>
+          <ul>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>CSS - Preprocessors</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>Git - Version Control</li>
+              <li>Data Analysis</li>
+              <li>Problem Solving</li>
+              <li>Excel</li>
+            </ul>
+      </Section>
+      <Section id='experience'>
+        <h2>Experience</h2>
+        <div class="career-block">
+          <h3>Lambda School - Fullstack Web Development Student - Remote</h3>
+          <time>02/2019 - Current</time>
+          <ul>
+            <li>Showed mastery in web design practices and technologies through schools sprint process</li>
+          </ul>
+        </div>
+        <div class="career-block">
+          <h3>Haworth, Inc. - Team Member - Holland, Mi</h3>
+          <time>05/2018 - 02/2019</time>
+          <ul>
+            <li>Created system to increase communication of cross functional team - load, paint, unload</li>
+            <li>Standardized Set up process for paint line to increase productivity and accuracy</li>
+            <li>Working to improve process feedback loops to aid in Continuous Improvement exercises</li>
+          </ul>
+        </div>
+        <div class="career-block">
+          <h3>Mid-South Organizing Committee - Data Coordinator - Saint Louis, Mo</h3>
+          <time>02/2014 - 01/2017</time>
+          <ul>
+            <li>Used multiple programming technologies to automate data processes and expand field teams capabilities while increasing uniformity of data and creating actionable insights</li>
+            <li>Trained remote teams in using various technologies, including Microsoft Office, Google Apps, and using mobile and desktop database interfaces</li>
+            <li>Managed databases and data process used in entry, reporting, and targeting</li>
+          </ul>
+        </div>
+        <div class="career-block">
+          <h3>Mi Workers Organizing Committee - Organizer - Detroit, Mi</h3>
+          <time>04/2013 - 03/2014</time>
+          <ul>
+            <li>Fostered community relationships through networking and outreach events</li>
+            <li>Hosted trainings and organizing meetings in satellite cities</li>
+          </ul>
+        </div>
+        <div class="career-block">
+          <h3>Campaign Data Manager - SEIU 1199 Wv Ky Oh - Canton, Oh</h3>
+          <time>08//2012 - 12/2012</time>
+          <ul>
+            <li>Managed campaign data practices</li>
+            <li>Trained staff on proper data collection practices</li>
+            <li>Drove campaign success through targeted lists and reporting</li>
+          </ul>
+        </div>
+      </Section>
+    </div>
+  </main>
+  <footer>
+      &copy;Joshua Kersting 2019
+  </footer>
+</div>
 </body>
 </html>
