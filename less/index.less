@@ -63,7 +63,7 @@ table {
 // Media Querys:
 
 @mobile: ~"only screen and (max-width: 500px)";
-
+@tablet: ~"only screen and (max-width: 800px)";
 
 html, body {
 	height: 100%;
@@ -120,7 +120,7 @@ header {
     color: @lightColor;
     padding: 1rem 2rem;
 
-    @media @mobile {
+    @media @tablet {
       .flipFlex();
     }
   }
@@ -157,14 +157,9 @@ section {
   padding: 2rem;
 }
 
-.fab {
+.favis {
   font-size: 3rem;
-  margin: 2rem;
-
-  @media (max-width: 800px){
-    font-size: 2rem;
-    margin: .5rem;
-  }
+  margin: 1rem;
 
   &:hover {
     transform: scale(1.1);
@@ -172,21 +167,21 @@ section {
   }
 
   &:first-child {
-    margin-left: 0;
+    margin-left: 2rem;
   }
 }
 
 #intro {
   .flex(space-between, center);
 
-  @media @mobile {
+  @media @tablet{
     .flipFlex()
   }
 
   img {
     margin-right: 2em;
 
-    @media @mobile {
+    @media @tablet {
       margin-bottom: 2em;
     }
   }

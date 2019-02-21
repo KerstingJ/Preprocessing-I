@@ -176,7 +176,7 @@ header .banner {
   color: #D3DBDE;
   padding: 1rem 2rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   header .banner {
     flex-direction: column;
     align-items: center;
@@ -209,29 +209,23 @@ nav a:last-child {
 section {
   padding: 2rem;
 }
-.fab {
+.favis {
   font-size: 3rem;
-  margin: 2rem;
+  margin: 1rem;
 }
-@media (max-width: 800px) {
-  .fab {
-    font-size: 2rem;
-    margin: 0.5rem;
-  }
-}
-.fab:hover {
+.favis:hover {
   transform: scale(1.1);
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
-.fab:first-child {
-  margin-left: 0;
+.favis:first-child {
+  margin-left: 2rem;
 }
 #intro {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   #intro {
     flex-direction: column;
     align-items: center;
@@ -240,7 +234,7 @@ section {
 #intro img {
   margin-right: 2em;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   #intro img {
     margin-bottom: 2em;
   }
